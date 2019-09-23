@@ -16,4 +16,4 @@ class ConnectFour {
     }
 }
 
-module.exports = ConnectFour;
+export default ConnectFour;

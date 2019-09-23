@@ -1,5 +1,5 @@
-const readline = require('readline-sync');
-const Connect4 = require('./Connect4.js');
+import readline from 'readline-sync';
+import Connect4 from './Connect4';
 
 const app = new Connect4();
 
@@ -20,7 +20,7 @@ const renderBoard = (board) => {
         + horizontalSeparator;
 };
 
-const clearScreen = () => console.log('\033c');
+const clearScreen = () => console.log('\u{1b}c');
 
 let playerOne = true;
 

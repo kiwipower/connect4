@@ -1,4 +1,4 @@
-const Connect4 = require('../src/Connect4.js');
+import Connect4 from '../src/Connect4';
 
 describe('Connect4', () => {
     test('starts with an empty board', () => {
