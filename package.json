@@ -10,7 +10,7 @@
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "@babel/cli": "^7.6.0",
+    "@babel/cli": "^7.21.0",
     "@babel/core": "^7.6.0",
     "@babel/helpers": "^7.6.0",
     "@babel/plugin-transform-runtime": "^7.6.0",
